@@ -1,0 +1,25 @@
+mongodb+srv://usermongo:<password>@cluster1-ry7ow.mongodb.net/test?retryWrites=true&w=majority
+user: usermongo
+password: jere180288
+
+
+Your unique External ID: 61433473-b4e3-4758-9c71-67d423a9cddb
+Atlas AWS IAM User ARN: arn:aws:iam::962727799805:user/atlas-data-lake
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::962727799805:user/atlas-data-lake"
+      },
+      "Action": "sts:AssumeRole",
+      "Condition": {
+        "StringEquals": {
+          "sts:ExternalId": "61433473-b4e3-4758-9c71-67d423a9cddb"
+        }
+      }
+    }
+  ]
+}

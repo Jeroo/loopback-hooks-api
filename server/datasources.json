@@ -1,0 +1,38 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "datos.json"
+  },
+  "mi_mongodb": {
+    "host": "cluster1-ry7ow.mongodb.net",
+    "port": 0,
+    "url": "mongodb+srv://usermongo:jere180288@cluster1-ry7ow.mongodb.net/mi_liga_db?retryWrites=true&w=majority",
+    "database": "miligadb",
+    "password": "jere180288",
+    "name": "mi_mongodb",
+    "user": "usermongo",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "mi_mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://admin:123456@localhost/mi_liga",
+    "database": "mi_liga",
+    "password": "123456",
+    "name": "mi_mysql",
+    "user": "admin",
+    "connector": "mysql"
+  },
+  "mi_mysql_2": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://admin:123456@localhost/catalogos",
+    "database": "catalogos",
+    "password": "123456",
+    "name": "mi_mysql_2",
+    "user": "admin",
+    "connector": "mysql"
+  }
+}
